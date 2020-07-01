@@ -67,7 +67,67 @@ div {
         height: 150px;
     }    
   }
-  
+  /* deskTop */
+  @media (min-width: 962px) and (max-width: 1280px) {
+      
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        /* grid-gap: 10px; */
+        background-color: #2196F3;
+        height: 100vh;
+      }
+      #a {
+
+        grid-column-start: 1;
+        grid-column-end: 6;
+        background-color: darkred;
+      }
+      #b {
+
+        background-color: darkslategray;
+        grid-column-start: 1;
+        grid-column-end:1 ;
+        grid-row-start:2 ;
+        grid-row-end: 5;
+      }
+      #c{
+        background-color: darkgoldenrod;
+        grid-column-start: 2;
+        grid-column-end:4;
+      }
+      #d{
+        background-color: darkgoldenrod;
+        grid-column-start: 4;
+        grid-column-end:6;
+      }
+      #e{
+        background-color: seagreen;
+         }
+
+         
+      #f{
+        background-color: seagreen;
+         }
+
+      #g{
+        background-color: seagreen;
+         }
+         
+      #h{
+        background-color: seagreen;
+         }
+
+
+        #i{
+        background-color: darkorange;
+        grid-column-start: 2;
+        grid-column-end: 6;
+      }
+
+
+  }
+/* End desk */
   /* mobile */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     
